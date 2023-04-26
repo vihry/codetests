@@ -3,7 +3,7 @@ import { expect, assert, should } from 'chai';
 import 'mocha';
 
 describe('Ordering drinks gives the expected price', () => {
-    it('Corctly calculates 74kr for a Heineken', () => {
+    it('Correctly calculates 74kr for a Heineken', () => {
         const price = calculateCost(BEER_ONE, false, 1);
         expect(price).to.equal(74);
     });
