@@ -1,3 +1,6 @@
+# VH: To start
+npm start
+
 # Code test
 
 This test is about checking your eye for design, and general front end skills such as HTML & CSS
