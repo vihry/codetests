@@ -1,0 +1,22 @@
+.vt-switch {
+  position: relative;
+  border-radius: 11px;
+  width: 40px;
+  height: 22px;
+  border: 1px solid #494d54;
+  background-color: #494d54;
+  transition: border-color 0.3s, background-color 0.3s;
+}
+.vt-switch:hover {
+  border: 1px solid white;
+}
+.vt-switch-check {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: grey;
+}
